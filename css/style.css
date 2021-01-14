@@ -82,6 +82,10 @@ body {
   justify-content: center;
   margin: 0 10px;
 }
+.showcase li small{
+  display: inline-block;
+  margin: 0 5px;
+}
 
 
 .row {
