@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+.container{
+  /* Tilt the seats row */
+  perspective: 2000px;
+}
+
 .movie-container {
   margin: 20px 0;
 }
@@ -83,11 +88,28 @@ body {
   margin: 0 10px;
 }
 .showcase li small{
-  display: inline-block;
-  margin: 0 5px;
+  /* display: inline-block; */
+  margin-left: 2px;
 }
 
 
 .row {
   display: flex;
+}
+
+.screen{
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+p.text{
+  margin: 15px 0;
+}
+
+p.text span{
+  color: #6feaf6;
 }
